@@ -1,6 +1,8 @@
 import React from 'react'
 import styled from 'styled-components'
 import Hero from './Components/Hero'
+import Footer from './Components/Footer'
+import GamesList from './Components/GamesList'
 
 
 
@@ -28,6 +30,15 @@ const App = () => {
     <SubSection id="home">
       <Hero/>
     </SubSection>
+
+    <SubSection>
+      <GamesList/>
+    </SubSection>
+
+    <SubSection>
+      <Footer/>
+    </SubSection>
+    
 
   </MainSection> 
     
