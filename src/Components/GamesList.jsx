@@ -123,7 +123,7 @@ const GameDetail = ({ gameId, onBack }) => {
   const [game, setGame] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
-  const API_KEY = 'd0a7f23174d8491f8f57069861117e39';
+  const API_KEY = 'api key';
 
   useEffect(() => {
     const fetchGameDetails = async () => {
@@ -168,7 +168,7 @@ const GamesList = ({ onGameSelect }) => {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
   const [page, setPage] = useState(1);
-  const API_KEY = 'd0a7f23174d8491f8f57069861117e39';
+  const API_KEY = 'api key';
 
   useEffect(() => {
     const fetchGames = async () => {
